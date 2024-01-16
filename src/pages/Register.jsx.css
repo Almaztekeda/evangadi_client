@@ -1,0 +1,33 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .register-form div {
+    margin-bottom: 10px;
+  }
+  
+  .register-form span {
+    font-weight: bold;
+  }
+  
+  /* Styling for valid/invalid inputs */
+  input:valid {
+    border-color: green;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  /* Success message */
+  .success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    color: #3c763d;
+  }
+  
